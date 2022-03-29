@@ -1,0 +1,4 @@
+set(TEST_SOURCE
+  ${TEST_SOURCE}
+  PARENT_SCOPE
+)

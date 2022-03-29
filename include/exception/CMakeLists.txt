@@ -1,0 +1,4 @@
+set(HEADER_LIST
+  ${HEADER_LIST}
+  PARENT_SCOPE
+)

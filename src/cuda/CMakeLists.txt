@@ -1,0 +1,8 @@
+set(SOURCE
+  ${SOURCE}
+  ${CMAKE_CURRENT_SOURCE_DIR}/device.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/stream.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/stream_factory.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/event.cpp
+  PARENT_SCOPE
+)

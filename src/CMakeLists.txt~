@@ -1,0 +1,22 @@
+add_subdirectory(exception)
+add_subdirectory(cuda)
+
+set(INCLUDE_DIRECTORIES
+  ${INCLUDE_DIRECTORIES}
+  ${CMAKE_CURRENT_SOURCE_DIR}
+  PARENT_SCOPE
+)
+
+set(SOURCE
+  ${SOURCE}
+)
+
+set(NVCC_SOURCE
+  ${NVCC_SOURCE}
+)
+
+include_directories(${INCLUDE_DIRECTORIES})
+
+add_library(${SIMPLECUDA_LIB} SHARED ${SOURCE})
+cuda_add_library(${SIMPLECUDA_NVCC_LIB} SHARED ${NVCC_SOURCE})
+

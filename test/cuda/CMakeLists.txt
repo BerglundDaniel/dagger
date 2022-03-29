@@ -1,0 +1,12 @@
+set(TEST_SOURCE
+  ${TEST_SOURCE}
+  ${CMAKE_CURRENT_SOURCE_DIR}/cuda_adapter_test.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/cuda_types_concept_test.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/transfer_test.cpp
+  #${CMAKE_CURRENT_SOURCE_DIR}/cublas_wrapper_test.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/device_test.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/stream_test.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/stream_factory_test.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/event_test.cpp
+  PARENT_SCOPE
+)

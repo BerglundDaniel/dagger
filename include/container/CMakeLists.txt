@@ -1,0 +1,10 @@
+set(HEADER_LIST
+  ${HEADER_LIST}
+  ${CMAKE_CURRENT_SOURCE_DIR}/device_container_concept.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/container_properties.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/host_vector.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/host_matrix.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/device_vector.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/device_matrix.h
+  PARENT_SCOPE
+)

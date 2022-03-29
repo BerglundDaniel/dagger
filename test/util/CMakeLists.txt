@@ -1,0 +1,7 @@
+set(TEST_SOURCE
+  ${TEST_SOURCE}
+  ${CMAKE_CURRENT_SOURCE_DIR}/multiplier_test.cpp
+  PARENT_SCOPE
+)
+
+
